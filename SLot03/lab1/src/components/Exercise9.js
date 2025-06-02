@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Exercise9 = () => {
   const employees = [

@@ -1,0 +1,30 @@
+.card-custom {
+  padding: 10px;
+  text-align: center;
+}
+
+.card-blue {
+  background-color: #007bff;
+  color: white;
+}
+
+.card-yellow {
+  background-color: #ffc107;
+  color: black;
+}
+
+.card-red {
+  background-color: #dc3545;
+  color: white;
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-text {
+  margin-top: 10px;
+}

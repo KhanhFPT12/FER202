@@ -1,5 +1,4 @@
-// src/components/Exercise1.js
-import React from 'react';
+
 
 const Exercise1 = () => {
   const employee = { name: "John Doe", age: 30, department: "IT" };

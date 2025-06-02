@@ -1,4 +1,3 @@
-import React from 'react';
 
 const averageAge = (...ages) => {
   const total = ages.reduce((sum, age) => sum + age, 0);
