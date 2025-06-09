@@ -1,0 +1,78 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fpt-card {
+    display: flex;
+    flex-direction: row;
+    width: 640px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.fpt-logo-section {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fpt-logo {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+
+.fpt-info {
+  margin-top: -10%;
+    margin-left: 65%;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #f4a261; /* Màu cam nhạt giống hình */
+}
+
+.header-logo {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.header-title {
+  color: #f28c38; /* Màu cam đậm */
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.footer {
+  background-color: #e9c46a; /* Màu vàng nhạt giống footer */
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+  color: #000;
+}

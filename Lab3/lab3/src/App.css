@@ -1,0 +1,193 @@
+/* Header Styles */
+.header {
+  background-color: RGB(51, 51, 51);
+  color: #fff;
+}
+
+.navbar-brand {
+  margin-left: 8%;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.nav-links {
+  margin-left: 8%;
+  display: flex;
+}
+
+.nav-links a {
+  color: #fff !important;
+  margin-right: 1.5rem;
+}
+
+.search-form {
+  display: flex;
+  margin-left: 40%;
+}
+
+.search-input {
+  border-radius: 0;
+}
+
+.search-button {
+  border-radius: 0 4px 4px 0;
+}
+
+/* Hero Styles */
+.hero {
+  position: relative;
+ 
+  width: 100%;
+  overflow: hidden; /* Đảm bảo không có tràn ngoài */
+}
+
+.hero-image {
+  width: 100vw; /* Sử dụng toàn bộ chiều rộng của viewport */
+  position: relative;
+  left: 50%; /* Di chuyển ảnh để căn giữa */
+  transform: translateX(-50%); /* Điều chỉnh vị trí để bù lại */
+  height: auto;
+  display: block; /* Đảm bảo ảnh không bị ảnh hưởng bởi padding của cha */
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.hero-title {
+  margin-top: 30%;
+  
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+}
+
+/* Menu Styles */
+.menu-section {
+  padding: 3rem 0;
+  background-color: #222;
+  color: #fff;
+}
+
+.menu-title {
+  
+  margin-bottom: 2rem;
+}
+
+.menu-card {
+  height: 100%;
+  background-color: #fff;
+  color: #000;
+  height: 110%;
+}
+
+.menu-card-image {
+  
+  height: 320px;
+  object-fit: cover;
+}
+
+.menu-card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.badge {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 5px 10px;
+   border-radius: 0px;
+   width: 30%;
+   height: 5%;
+}
+
+.badge-sale {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.badge-new {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.menu-card-title {
+  margin-top: 1rem;
+}
+
+.menu-card-price {
+  flex-grow: 1;
+}
+
+.menu-card-button {
+  margin-top: auto;
+}
+
+/* Booking Form Styles */
+.booking-section {
+  padding: 3rem 0;
+  background-color: #222;
+  color: #fff;
+  width: 100%;
+}
+
+.booking-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.booking-form {
+ 
+  padding: 2rem;
+  border-radius: 8px;
+  color: #000;
+}
+.booking-form .row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-left: -35%;
+  width: 170%;
+}
+
+.booking-form .row .col-md-4 {
+  flex: 1;
+  padding: 0;
+}
+
+.comment-group {
+  width: 170%;
+  margin-left: -35%;
+}
+
+.booking-input {
+  margin-bottom: 1rem;
+width: 100%;
+}
+
+.booking-button {
+  width: 40%;
+  margin-left: -35%;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.footer-text {
+  margin: 0;
+}
