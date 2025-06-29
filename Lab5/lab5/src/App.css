@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.carousel img {
+  height: 400px;
+  object-fit: cover;
+}
+.text-center.mt-4 {
+  font-size: 26px;
+  
+  color: red;
+  white-space: nowrap;     /* 👉 Ngăn xuống dòng */
+  width: auto;             /* 👉 Không giới hạn chiều rộng */
+  margin-left: -85%;   /* 👉 Cho phép giữ kích thước theo nội dung */
+}
+
+/* src/App.css hoặc src/components/News.css */
+.card {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-radius: 5px 5px 0 0;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 0;
+}
+.summary-text {
+  text-decoration: underline; /* Thêm dấu gạch chân */
+  margin-top: auto; /* Đẩy xuống dưới cùng trong card-body */
+  padding-top: 10px; /* Khoảng cách trên để tách biệt */
+}
+
+
+/* src/App.css hoặc src/components/Contact.css */
+.form-control.is-invalid {
+  border-color: #dc3545;
+  background-image: none; /* Loại bỏ hình nền mặc định của Bootstrap */
+}
+
+.form-control.is-invalid:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.form-control.is-valid {
+  border-color: #28a745;
+  background-image: none;
+}
+
+.form-control.is-valid:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.invalid-feedback {
+  display: block; /* Đảm bảo thông báo lỗi luôn hiển thị */
+}
