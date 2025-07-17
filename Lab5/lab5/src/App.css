@@ -77,3 +77,8 @@
 .invalid-feedback {
   display: block; /* Đảm bảo thông báo lỗi luôn hiển thị */
 }
+
+.mb-3 text-center {
+  margin-left: 5%;
+  text-align: center;
+}

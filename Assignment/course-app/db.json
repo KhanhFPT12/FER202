@@ -1,0 +1,18 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "ReactJS Cơ bản",
+      "description": "Khóa học dành cho người mới bắt đầu học ReactJS.",
+      "price": 300000,
+      "image": "react.png"
+    },
+    {
+      "id": 2,
+      "title": "NodeJS nâng cao",
+      "description": "Xây dựng backend với NodeJS, Express, MongoDB.",
+      "price": 450000,
+      "image": "node.png"
+    }
+  ]
+}

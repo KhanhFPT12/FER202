@@ -151,7 +151,7 @@ function Contact() {
             </Form.Group>
           </div>
         </div>
-        <Form.Group className="mb-3" controlId="formTerms">
+        <Form.Group className="mb-3 text-center" controlId="formTerms">
           <Form.Check
             type="checkbox"
             name="agreeTerms"
@@ -162,6 +162,7 @@ function Contact() {
           />
           <Form.Control.Feedback type="invalid">{errors.agreeTerms}</Form.Control.Feedback>
         </Form.Group>
+       
         <Button variant="primary" type="submit">
           Submit form
         </Button>
