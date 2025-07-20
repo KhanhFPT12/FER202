@@ -15,10 +15,13 @@ function Login({ setUser }) {
         const found = users.find(user => user.username === username && user.password === password);
         if (found) {
           setUser(found);
+          alert(`Welcome, ${found.username} login Successful!`);
           setShowModal(true);
            navigate('/laptops');
+
         } else {
           alert("Invalid username or password!");
+
         }
       })
       .catch(err => console.error("Login fetch error:", err));

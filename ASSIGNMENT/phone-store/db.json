@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 15 Pro Max",
+      "description": "Chip A17 Pro, RAM 8GB, 256GB, camera 48MP, 5G, Dynamic Island",
+      "price": "37.990.000",
+      "currentPrice": "35.990.000",
+      "image": "/images/iphone15.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Snapdragon 8 Gen 3, RAM 12GB, 512GB, camera 200MP, S-Pen",
+      "price": "33.990.000",
+      "currentPrice": "31.990.000",
+      "image": "/images/S24.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Xiaomi 14 Ultra",
+      "description": "Snapdragon 8 Gen 3, RAM 16GB, camera Leica, 120Hz AMOLED",
+      "price": "28.990.000",
+      "currentPrice": "26.990.000",
+      "image": "/images/xiaomi.jpg"
+    },
+    {
+      "id": "4",
+      "name": "OPPO Find X7 Ultra",
+      "description": "Snapdragon 8 Gen 3, RAM 16GB, 512GB, 4 camera 50MP, Hasselblad",
+      "price": "25.990.000",
+      "currentPrice": "23.490.000",
+      "image": "/images/oppo.jpg"
+    },
+    {
+      "id": "5",
+      "name": "vivo X100 Pro",
+      "description": "Dimensity 9300, RAM 16GB, camera ZEISS, zoom quang 4.3x",
+      "price": "27.990.000",
+      "currentPrice": "24.990.000",
+      "image": "/images/vivo.jpg"
+    },
+    {
+      "id": "6",
+      "name": "iPhone 13",
+      "description": "Apple A15 Bionic, 128GB, camera 12MP, FaceID, pin 3240mAh",
+      "price": "19.990.000",
+      "currentPrice": "16.990.000",
+      "image": "/images/iphone13.jpg"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "password": "password2"
+    },
+    {
+      "id": 4,
+      "username": "khachhang",
+      "password": "fpt123"
+    },
+    {
+      "id": 5,
+      "username": "giahan",
+      "password": "giahan123"
+    },
+    {
+      "id": "0d24",
+      "username": "a",
+      "password": "123"
+    }
+  ]
+}
